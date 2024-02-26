@@ -1,0 +1,77 @@
+:root{
+    --dark-color: #545d6d;
+    --dark-blue: #101B5F;
+    --light-gray: #9da0a3;
+}
+
+body{
+    line-height: 1.8;
+    color: var(--dark-color);
+    font-family: "Barlow", sans-serif;
+}
+
+section {
+    padding-top: 15rem;    
+}
+
+h1, h2, .nav-link, .btn{
+    text-transform: uppercase;
+}
+
+h1, h2{
+    font-weight: 800;
+}
+
+.navbar-brand, .nav-link, .btn{
+    font-weight: 700;
+}
+
+.navbar-brand, .nav-link{
+    letter-spacing: 1px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-style: italic;     
+}
+
+span, #hero h3, .sub, .card-title, #projects a, footer{
+    font-weight: bold;
+}
+
+.nav-link, .btn, footer{
+    font-size: 12px;
+}
+
+.media a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0.6rem;
+}
+
+#hero h1{
+    color: var(--dark-blue); 
+    padding-bottom: 2.5rem;
+}
+
+.btn{
+    border-width: 2px;  
+}
+
+.p1{
+    color: var(--light-gray);
+}
+
+.card{
+    border-style: none;
+}
+
+#projects a{
+    text-decoration: none;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+
+
+
